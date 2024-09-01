@@ -38,7 +38,7 @@ public class NewServlet extends HttpServlet {
 
         RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/messages/new.jsp");
         rd.forward(request, response);
-        
+
         /*   EntityManager em = DBUtil.createEntityManager();
         em.getTransaction().begin();
 
